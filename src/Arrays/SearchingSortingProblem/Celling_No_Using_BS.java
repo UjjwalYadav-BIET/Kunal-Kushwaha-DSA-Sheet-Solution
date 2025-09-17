@@ -3,12 +3,12 @@ package Arrays.SearchingSortingProblem;
 public class Celling_No_Using_BS {
     public static void main(String[] args) {
         int[] arr = {-12, -5, -1, 0, 4, 8, 9, 19};
-        int target = 9;
-        int ans = binary_Search(arr, target);
-        System.out.printf("Element %d is at position %d",target,ans);
+        int target = -2;
+        int ans = Celling(arr, target);
+        System.out.println("The celling of the target number is at index : "+ans+" and the number is "+arr[ans]);
     }
 
-    static int binary_Search(int[] arr, int target) {
+    static int Celling(int[] arr, int target) {
 
         int start = 0;
         int end = arr.length - 1;
