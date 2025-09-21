@@ -1,11 +1,14 @@
 package LeetCode;
 
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class P34_FirstAndLastElm_InSortedArr {
     public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
         int[] arr =  {5,7,7,7,7,8,8,9};
-        int target = 7;
+        System.out.println("Enter the number which you want's.");
+        int target = in.nextInt();
         System.out.println(Arrays.toString(binary_Search(arr, target)));
     }
 
