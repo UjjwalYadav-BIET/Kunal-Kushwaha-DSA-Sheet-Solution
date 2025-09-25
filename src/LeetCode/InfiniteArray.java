@@ -3,7 +3,7 @@ package LeetCode;
 public class InfiniteArray {
     public static void main(String[] args) {
         int[] arr = {5, 7, 7, 7, 7, 8, 8, 9, 68};
-        int target = 10;
+        int target = 5;
 
         int result = ans(arr, target);
         if (result != -1) {
