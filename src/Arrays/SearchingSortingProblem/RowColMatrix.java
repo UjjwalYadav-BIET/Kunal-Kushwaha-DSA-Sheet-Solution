@@ -6,13 +6,13 @@ import java.util.Arrays;
 public class RowColMatrix {
     public static void main(String[] args) {
         int [][] arr = {
-                {10,20,30,40},
-                {15,25,35,45},
-                {28,29,37,49},
-                {33,34,38,50}
+                { 1,  2,  3,  4},
+                { 5,  6,  7,  8},
+                { 9, 10, 11, 12},
+                {13, 14, 15, 16}
         };
 
-        System.out.println("Since, the element is at the position : "+Arrays.toString(search(arr,37)));
+        System.out.println("Since, the element is at the position : "+Arrays.toString(search(arr,16)));
 
     }
     static  int[] search (int[][]matrix, int target) {
