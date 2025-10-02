@@ -12,7 +12,7 @@ public class RowColMatrix {
                 {13, 14, 15, 16}
         };
 
-        System.out.println("Since, the element is at the position : "+Arrays.toString(search(arr,16)));
+        System.out.println("Since, the element is at the position : "+Arrays.toString(search(arr,2)));
 
     }
     static  int[] search (int[][]matrix, int target) {
