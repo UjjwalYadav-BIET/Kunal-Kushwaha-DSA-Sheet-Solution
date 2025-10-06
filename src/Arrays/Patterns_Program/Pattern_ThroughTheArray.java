@@ -2,7 +2,7 @@ package Arrays.Patterns_Program;
 
 public class Pattern_ThroughTheArray {
     public static void main(String[] args) {
-        int[] arr = {1, 2, 8, 4, 2, 1};
+        int[] arr = {1, 2, 5, 6, 2, 1,0};
 
         // Part 1: Find the highest number to determine the pattern's height.
         int maxHeight = 0;
@@ -23,7 +23,7 @@ public class Pattern_ThroughTheArray {
                 // If the number in the array is tall enough for the current row,
                 // print a dot. Otherwise, print a space.
                 if (num >= height) {
-                    System.out.print(". ");
+                    System.out.print("* ");
                 } else {
                     System.out.print("  ");
                 }
