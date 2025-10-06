@@ -9,7 +9,7 @@ public class Bubble_Sort {
         int arr[] = {1,2,4,3,6};
         bubble(arr);
         System.out.println(Arrays.toString(arr));
-        sc.close();
+        System.exit(0);
     }
     static void bubble(int[] nums) {
         boolean swap;
