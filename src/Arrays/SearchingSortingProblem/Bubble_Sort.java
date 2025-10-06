@@ -1,13 +1,15 @@
 package Arrays.SearchingSortingProblem;
 
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class Bubble_Sort {
     public static void main(String[] args) {
-        int arr[] = {1,2,4,5,6};
+        Scanner sc = new Scanner(System.in);
+        int arr[] = {1,2,4,3,6};
         bubble(arr);
         System.out.println(Arrays.toString(arr));
-
+        sc.close();
     }
     static void bubble(int[] nums) {
         boolean swap;
