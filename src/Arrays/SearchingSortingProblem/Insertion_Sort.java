@@ -24,6 +24,7 @@ public class Insertion_Sort {
                 }
             }
         }
+        System.out.println("Sorted array is : ");
         System.out.println(Arrays.toString(arr));
     }
 }
